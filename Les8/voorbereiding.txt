@@ -1,0 +1,29 @@
+1. <elemendchild/> is leeg
+2. Er is geen endtag voor <Element>
+3. <element mist een >
+4. Er zijn 2 </element
+5. Syntax error in <elementS&P</element>
+6. geen endtag bij <![CATA
+7. <element2> wordt niet afgesloten
+8. <element2 attr="value" attr2='value'>
+9. <-- comment --> heeft geen endtag
+10. <a><b></a></b> tag </a> en </b> moeten omgedraaid worden
+11. regel 1 heeft 2x een ? erin
+
+<?xml version="1.0" encoding="UTF-8"?>
+<element1>
+ <elementchild>value</elementchild>
+ <ele mentchild></ele mentchild>
+ <elementchild/>
+ <XMLElement>value</XMLElement>
+ <3Element>value</3Element>
+ <Element>value<element>
+ <element>Value
+ <elementS&P</element>
+ <a>v</a><a>v</a>
+ <-- comment -->
+ <![CATA[ <>&'" <<>>>>>>>>>>>>>>>> ]]
+</element1>
+<element2 attr="value" attr2='value'>
+ <a><b></a></b>
+<element2>
