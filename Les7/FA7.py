@@ -76,6 +76,7 @@ def writetocsv(safenr, inuse, code):
 # new_safe() -> Check if there is a safe available. & if available hands it out with randomized code.
 # The user has to put in which number he wants.
 ##
+
 def new_safe():
     safenumfree = []
     inuse = "y"
